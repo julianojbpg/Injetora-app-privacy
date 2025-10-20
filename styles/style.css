@@ -1,0 +1,66 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container centralizado e responsivo */
+.container {
+    width: 90%;
+    max-width: 980px;
+    padding: 20px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    word-wrap: break-word;
+}
+
+/* Tipografia */
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    list-style-type: disc;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    .container {
+        padding: 15px;
+    }
+}
